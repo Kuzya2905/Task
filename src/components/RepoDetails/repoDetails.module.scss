@@ -1,0 +1,77 @@
+.asideEmpty {
+  max-width: 480px;
+  width: 100%;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.01em;
+  color: #4f4f4f;
+}
+
+.aside {
+  max-width: 480px;
+  width: 100%;
+  background: #f2f2f2;
+  padding: 24px;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 125%;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 16px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.language {
+  border-radius: 100px;
+  padding: 7px 10px;
+  background: #2196f3;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 138%;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 0 8px;
+}
+
+.license {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 8px;
+}
+
+.topic {
+  white-space: nowrap;
+  border-radius: 100px;
+  padding: 3px 10px;
+  background: rgba(0, 0, 0, 0.08);
+  font-size: 13px;
+  line-height: 138%;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.87);
+}

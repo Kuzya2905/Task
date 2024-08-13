@@ -1,0 +1,28 @@
+.wrapperTable {
+  min-width: 712px;
+  flex-grow: 1;
+  margin: 0 16px 0 32px;
+}
+
+.header {
+  margin: 24px 0px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 117%;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.cellHeadName {
+  width: 30%;
+}
+
+.cellHeadLanguage {
+  width: 15%;
+}
+
+.cellBody {
+  padding-left: 44px;
+  &:hover {
+    background-color: #00ffff;
+  }
+}
