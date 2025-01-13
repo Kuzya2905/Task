@@ -19,7 +19,7 @@ import { setCurrentPage } from "@/redux/features/repositories/reposSlice";
 import { Repo } from "@/redux/features/repositories/reposTypes";
 import { RepoTableProps } from "./RepoTable.types";
 
-import styles from "./RepoTable.module.scss";
+import styles from "./repoTable.module.scss";
 
 // Компонент для отображения таблицы с репозиториями.
 const RepoTable: React.FC<RepoTableProps> = ({
