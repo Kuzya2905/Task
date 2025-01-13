@@ -6,7 +6,7 @@ import Star from "@/assets/images/Star.svg";
 
 import { RepoDetailsProps } from "./RepoDetails.types";
 
-import styles from "./RepoDetails.module.scss";
+import styles from "./details.module.scss"
 
 // Детальная информация выбранного репозитория
 const RepoDetails: React.FC<RepoDetailsProps> = ({ selectedRepo }) => {
